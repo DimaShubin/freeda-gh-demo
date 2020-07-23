@@ -1,0 +1,2 @@
+(this["webpackJsonpfreeda-otc-order"]=this["webpackJsonpfreeda-otc-order"]||[]).push([[8],{380:function(e,a,t){"use strict";t.r(a);var r=t(0),n=t.n(r),l=t(388),c=t(148),d=t(217);a.default=function(){var e=l.a.Title;return n.a.createElement("div",{className:"dashboard"},n.a.createElement(c.a,null,n.a.createElement(d.a,{type:"flex",align:"middle"},n.a.createElement(e,null,"Dashboard"))))}}}]);
+//# sourceMappingURL=8.ab2fa35d.chunk.js.map
