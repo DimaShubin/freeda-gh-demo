@@ -1,0 +1,178 @@
+.modified-btn.ant-btn {
+    height: 56px;
+}
+
+
+/* Tabslike radio buttons  */
+.radio-tab-style.ant-radio-group {
+    width: 100%;
+    border-bottom: 1px solid var(--outline-color);
+}
+
+.radio-tab-style .ant-radio-button-wrapper {
+    border-width: 0 0 1px 0;
+    box-shadow: none !important;
+    border-color: transparent;
+}
+
+.radio-tab-style .ant-radio-button-wrapper-checked {
+    border-color: #0029FF !important;
+}
+
+.radio-tab-style .ant-radio-button-wrapper:not(:first-child)::before {
+    background-color: transparent;
+}
+
+.radio-tab-style .ant-radio-button-wrapper-checked:not(.ant-radio-button-wrapper-disabled) {
+    color: #0029FF;
+}
+
+
+/* Input styles */
+.basic-input .ant-input-affix-wrapper {
+    padding: 15px 11px;
+}
+
+.basic-input .ant-input-suffix {
+    color: var(--outline-color);
+    font-size: 16px;
+}
+
+.basic-input .ant-form-item-no-colon {
+    color: rgba(18, 18, 18, 0.50);
+    font-size: 11px;
+    font-weight: 600;
+}
+
+/* Card's custom styles */
+
+.card-custom {}
+
+/* Open orders list */
+.orders-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid var(--outline-color);
+    margin: 0 -24px 20px;
+    padding: 0 24px 10px;
+}
+
+.orders-list .orders-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.orders-list .orders-list-item-label {
+    text-transform: uppercase;
+    font-size: 11px;
+    color: rgba(18, 18, 18, 0.50);
+    font-weight: 600;
+}
+
+.orders-list .orders-list-item-num {
+    font-size: 14px;
+    font-weight: 400;
+    border-radius: 2px;
+    padding: 0 10px;
+    display: inline-block;
+}
+
+/* Carousel Styles */
+
+.custom-carousel {}
+
+.custom-carousel .slick-arrow {
+    color: rgba(0, 0, 0, 0.4);
+    transition: color 0.2s;
+}
+
+.custom-carousel .slick-arrow:hover {
+    color: rgba(0, 0, 0, 1);
+}
+
+/* .custom-carousel .slick-arrow:before {
+    background-image: url("data:image/svg+xml;utf8,<svg viewBox='0 0 140 140' width='24' height='24' xmlns='http://www.w3.org/2000/svg'><g><path d='m121.3,34.6c-1.6-1.6-4.2-1.6-5.8,0l-51,51.1-51.1-51.1c-1.6-1.6-4.2-1.6-5.8,0-1.6,1.6-1.6,4.2 0,5.8l53.9,53.9c0.8,0.8 1.8,1.2 2.9,1.2 1,0 2.1-0.4 2.9-1.2l53.9-53.9c1.7-1.6 1.7-4.2 0.1-5.8z' fill='currentColor'/></g></svg>");
+    height: 100%;
+    display: inline-block;
+    width: 100%;
+    color: green;
+} */
+
+.custom-carousel .slick-arrow.slick-next {
+    transform: rotate(-90deg);
+}
+
+.custom-carousel .slick-arrow.slick-prev {
+    transform: rotate(90deg);
+}
+
+.carousel-item {
+    display: flex !important;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.progress-list {
+    width: 100%;
+    padding-right: 20px;
+}
+
+.progress-list-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 8px;
+}
+
+.progress-list-item-label {
+    text-transform: uppercase;
+    font-size: 11px;
+    color: rgba(18, 18, 18, 0.50);
+    font-weight: 700;
+}
+
+.progress-list-item-num {
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+}
+
+
+/* Chat */
+.rcw-conversation-container {
+    margin-bottom: 20px;
+}
+
+.chatBox-btn {
+    width: 125px;
+    height: 48px;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #fff;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 48px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    padding: 0 15px;
+    outline: none;
+    align-self: flex-end;
+}
+
+.chatBox-btn svg {
+    margin-right: 15px;
+}
+
+.chatBox-btn:hover {
+    background-color: rgba(34, 41, 254, 0.75);
+    box-shadow: 0px 15px 20px rgba(34, 41, 254, 0.4);
+    color: #fff;
+    transform: translateY(-7px);
+}

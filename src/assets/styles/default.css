@@ -1,0 +1,8 @@
+:root {
+    --main-color: #0029FF;
+    --secondary-color: #f5006b;
+    --danger-color: #F44336;
+    --outline-color: rgba(0, 0, 0, 0.38);
+    --disabled-color: rgba(0, 0, 0, 0.12);
+    --green-color: #00C853;
+}

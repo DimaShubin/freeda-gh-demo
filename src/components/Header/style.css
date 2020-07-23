@@ -1,0 +1,20 @@
+.ant-menu-customized.ant-menu {
+    text-align: right;
+    border-bottom: 0;
+}
+
+.ant-menu-customized.ant-menu>.ant-menu-item:hover {
+    border-bottom: none;
+}
+
+.ant-menu-customized.ant-menu>.ant-menu-item {
+    border-bottom: none;
+}
+
+.ant-menu>.ant-menu-item:nth-last-child(2) {
+    padding: 0px 0px;
+}
+
+.header {
+    padding: 1rem 1.5rem;
+}
